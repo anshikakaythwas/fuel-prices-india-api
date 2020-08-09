@@ -1,0 +1,59 @@
+[
+    {
+        "district": "SOUTH ANDAMAN",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "67.83",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "68.88",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "NICOBAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "67.83",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "68.88",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "NORTH&MIDDLE ANDAMAN",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "67.83",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "68.88",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    }
+]

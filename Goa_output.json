@@ -1,0 +1,40 @@
+[
+    {
+        "district": "SOUTH GOA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "77.15",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "76.64",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "NORTH GOA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "77.41",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "76.89",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    }
+]

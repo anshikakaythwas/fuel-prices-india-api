@@ -1,0 +1,1427 @@
+[
+    {
+        "district": "GORAKHPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.13",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.87",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "GONDA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.03",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.78",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "AZAMGARH",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.48",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.31",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "RAE BARELI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.43",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.23",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "AGRA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.80",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.48",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "AURAIYA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.39",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.17",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "KANPUR URBAN",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.90",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.60",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "MEERUT",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.85",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.53",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "BAGHPAT",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.95",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.65",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "RAMPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.28",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.04",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "BASTI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.62",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.45",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "BUDAUN",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.00",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.72",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "PILIBHIT",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.45",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.24",
+                "productCurrency": "INR",
+                "priceChange": "0.04",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "HATHRAS",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.92",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.56",
+                "productCurrency": "INR",
+                "priceChange": "0.04",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "FATEHPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.36",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.13",
+                "productCurrency": "INR",
+                "priceChange": "0.03",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "SANT RAVI NAGAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.40",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.20",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "CHANDAULI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.01",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.74",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "MUZAFFARNAGAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.84",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.47",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "BANDA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.79",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.64",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "SAMBHAL",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.28",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.03",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "HAMIRPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.74",
+                "productCurrency": "INR",
+                "priceChange": "0.39",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.53",
+                "productCurrency": "INR",
+                "priceChange": "0.38",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "PRATAPGARH",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.58",
+                "productCurrency": "INR",
+                "priceChange": "0.06",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.35",
+                "productCurrency": "INR",
+                "priceChange": "0.09",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "VARANASI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.42",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.21",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "AMETHI/CSM NAGAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.59",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.42",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "ALLAHABAD",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.40",
+                "productCurrency": "INR",
+                "priceChange": "0.07",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.20",
+                "productCurrency": "INR",
+                "priceChange": "0.07",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "GHAZIPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.94",
+                "productCurrency": "INR",
+                "priceChange": "0.04",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.83",
+                "productCurrency": "INR",
+                "priceChange": "0.04",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "SHAHJAHANPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.03",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.76",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "ALIGARH",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.08",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.76",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "MAINPURI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.21",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.94",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "MORADABAD",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.34",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.11",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "SHRAVASTI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.38",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.18",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "FAIZABAD",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.41",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.21",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "HARDOI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.00",
+                "productCurrency": "INR",
+                "priceChange": "0.19",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.77",
+                "productCurrency": "INR",
+                "priceChange": "0.19",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "GHAZIABAD",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.94",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.64",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "JAUNPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.72",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.57",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "AMBEDKARNAGAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "82.23",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "75.16",
+                "productCurrency": "INR",
+                "priceChange": "0.03",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "FIROZABAD",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.73",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.36",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "JALAUN",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.31",
+                "productCurrency": "INR",
+                "priceChange": "0.05",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.09",
+                "productCurrency": "INR",
+                "priceChange": "0.05",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "BAREILLY",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.92",
+                "productCurrency": "INR",
+                "priceChange": "0.09",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.66",
+                "productCurrency": "INR",
+                "priceChange": "0.06",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "SITAPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.58",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.40",
+                "productCurrency": "INR",
+                "priceChange": "0.04",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "LALITPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.45",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.21",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "CHITRAKUT",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "82.17",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "75.08",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "FARRUKKHABAD",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.39",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.17",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "HAPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.95",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.65",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "KUSHINAGAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.92",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.62",
+                "productCurrency": "INR",
+                "priceChange": "0.04",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "BALRAMPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.25",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.03",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "UNNAO",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.66",
+                "productCurrency": "INR",
+                "priceChange": "0.08",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.21",
+                "productCurrency": "INR",
+                "priceChange": "0.19",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "SONBHADRA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.59",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.37",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "KASHI RAM NAGAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.21",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.95",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "SULTANPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "82.30",
+                "productCurrency": "INR",
+                "priceChange": "0.03",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "75.24",
+                "productCurrency": "INR",
+                "priceChange": "0.03",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "MIRZAPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.37",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.16",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "LUCKNOW",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.04",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.77",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "LAKHIMPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.43",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.23",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "MAHOBA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.66",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.47",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "SIDHARTHNAGAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.68",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.51",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "ETAWAH",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.02",
+                "productCurrency": "INR",
+                "priceChange": "0.08",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.78",
+                "productCurrency": "INR",
+                "priceChange": "0.07",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "DEORIA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.96",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.67",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "BAHRAICH",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.13",
+                "productCurrency": "INR",
+                "priceChange": "0.07",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.93",
+                "productCurrency": "INR",
+                "priceChange": "0.05",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "ETAH",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.03",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.73",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "KANPUR RURAL",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.74",
+                "productCurrency": "INR",
+                "priceChange": "0.06",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.47",
+                "productCurrency": "INR",
+                "priceChange": "0.05",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "GAUTAM BUDH NAGAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.12",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.85",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "SAHARANPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.49",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.28",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "KAUSHAMBI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.98",
+                "productCurrency": "INR",
+                "priceChange": "0.09",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.72",
+                "productCurrency": "INR",
+                "priceChange": "0.12",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "MATHURA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.70",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.33",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "BARABANKI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.05",
+                "productCurrency": "INR",
+                "priceChange": "0.09",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.81",
+                "productCurrency": "INR",
+                "priceChange": "0.1",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "BIJNOR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.96",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.67",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "BALLIA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.47",
+                "productCurrency": "INR",
+                "priceChange": "0.04",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.27",
+                "productCurrency": "INR",
+                "priceChange": "0.04",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "MAHARAJGANJ",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.26",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.00",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "SANT KABIR NAGAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.14",
+                "productCurrency": "INR",
+                "priceChange": "0.05",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.80",
+                "productCurrency": "INR",
+                "priceChange": "0.08",
+                "priceChangeSign": "-"
+            }
+        ]
+    },
+    {
+        "district": "AMROHA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.36",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.13",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    },
+    {
+        "district": "BULANDSHAHR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.44",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.20",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "JHANSI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "80.90",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.58",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "MAUNATHBHANJAN",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.39",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.17",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "SHAMLI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.22",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.97",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "+"
+            }
+        ]
+    },
+    {
+        "district": "KANNUAJ",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "81.38",
+                "productCurrency": "INR",
+                "priceChange": "0.02",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "74.16",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    }
+]

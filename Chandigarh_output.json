@@ -1,0 +1,21 @@
+[
+    {
+        "district": "CHANDIGARH",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "77.44",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "73.21",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    }
+]
