@@ -3,6 +3,16 @@ var fs = require("fs");
 var request = require("request");
 var cheerio = require("cheerio");
 var app = express();
+const http = require("http");
+const port = process.env.PORT || 3000;
+
+// use the express-static middleware
+app.use(express.static("public"));
+
+// define the first route
+app.get("/", function (req, res) {
+  res.send("<h1>Hello World!</h1>");
+});
 
 function getDistrict(article) {
   var $ = cheerio.load(article);
@@ -293,6 +303,5 @@ app.get("/dev/allStates", function (req, res) {
   });
 });
 
-app.listen(process.env.PORT || 8081);
-console.log("Magic happens on port 8081");
-exports = module.exports = app;
+// start the server listening for requests
+app.listen(process.env.PORT || 3000, () => console.log("Server is running..."));
