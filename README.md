@@ -41,6 +41,8 @@ Example:
                 ]
 }
 ```
+For more examples : https://github.com/anshikakaythwas/fuel-prices-india-api/tree/master/jsonOutputs
+
 Source: https://www.newsrain.in/petrol-diesel-prices
 
 Feel free to open an issue for any bugs/features. (Bonus points for creating a pull request fixing/adding the same!)
