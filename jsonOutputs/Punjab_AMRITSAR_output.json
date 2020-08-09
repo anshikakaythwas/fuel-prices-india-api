@@ -1,0 +1,21 @@
+[
+    {
+        "district": "AMRITSAR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "82.12",
+                "productCurrency": "INR",
+                "priceChange": "0.01",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "75.61",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    }
+]

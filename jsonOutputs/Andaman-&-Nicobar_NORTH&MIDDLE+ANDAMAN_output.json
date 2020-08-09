@@ -1,0 +1,19 @@
+[
+    {
+        "district": "NORTH&MIDDLE ANDAMAN",
+        "products": [
+            {
+                "productPrice": "67.83",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            },
+            {
+                "productPrice": "68.88",
+                "productCurrency": "INR",
+                "priceChange": "0",
+                "priceChangeSign": null
+            }
+        ]
+    }
+]

@@ -4,6 +4,38 @@ var request = require("request");
 var cheerio = require("cheerio");
 var app = express();
 
+function getDistrict(article) {
+  var $ = cheerio.load(article);
+  return $("h2.fuel-title-dist", article).contents().first().text().trim();
+}
+function getProductName(product) {
+  var $ = cheerio.load(product);
+  return $("h3[itemprop=name]", product).contents().first().text().trim();
+}
+function getProductPrice(product) {
+  var $ = cheerio.load(product);
+  return $("span.price_tag", product).contents().first().text().trim();
+}
+function getProductCurrency(product) {
+  var $ = cheerio.load(product);
+  return $("i[itemprop=priceCurrency]", product).attr("content");
+}
+function getPriceChange(product) {
+  var $ = cheerio.load(product);
+  return $("span.changed-price", product).contents().first().text().trim();
+}
+function getPriceChangeSign(product) {
+  var priceChangeSign;
+  var priceChange = getPriceChange(product);
+  var $ = cheerio.load(product);
+  var increment = $("span.changed-price.increment", product).contents().length;
+  if (increment == 0) priceChangeSign = "-";
+  else priceChangeSign = "+";
+
+  if (priceChange == "0") priceChangeSign = null;
+  return priceChangeSign;
+}
+
 app.get("/scrapeMajor", function (req, res) {
   url = "https://www.newsrain.in/petrol-diesel-prices";
 
@@ -18,8 +50,6 @@ app.get("/scrapeMajor", function (req, res) {
         priceChangeSign,
         priceChange;
 
-      var title, release, rating;
-      var json = { state: "", release: "", rating: "" };
       var returnVal = [];
 
       $("article").each((i, article) => {
@@ -29,30 +59,12 @@ app.get("/scrapeMajor", function (req, res) {
         products = fuelcontent.find("div[itemprop=product]");
         productsJson = [];
         products.each((i, product) => {
-          productName = $("h3[itemprop=name]", product)
-            .contents()
-            .first()
-            .text()
-            .trim();
-          productPrice = $("span.price_tag", product)
-            .contents()
-            .first()
-            .text()
-            .trim();
-          productCurrency = $("i[itemprop=priceCurrency]", product).attr(
-            "content"
-          );
-          priceChange = $("span.changed-price", product)
-            .contents()
-            .first()
-            .text()
-            .trim();
-          increment = $("span.changed-price.increment", product).contents()
-            .length;
-          if (increment == 0) priceChangeSign = "-";
-          else priceChangeSign = "+";
+          productName = getProductName(product);
+          productPrice = getProductPrice(product);
+          productCurrency = getProductCurrency(product);
+          priceChange = getPriceChange(product);
+          priceChangeSign = getPriceChangeSign(product);
 
-          if (priceChange == "0") priceChangeSign = null;
           productsJson.push({
             productName,
             productPrice,
@@ -77,9 +89,11 @@ app.get("/scrapeMajor", function (req, res) {
     res.json(returnVal);
   });
 });
-app.get("/get/:state/:district", function (req, res) {
+
+app.get("/price/:state/:district", function (req, res) {
   url = "https://www.newsrain.in/petrol-diesel-prices/" + req.params.state;
 
+  var distValue = req.params.district.replace("+", " ");
   request(url, function (error, response, html) {
     if (!error) {
       var $ = cheerio.load(html);
@@ -92,43 +106,20 @@ app.get("/get/:state/:district", function (req, res) {
         priceChange;
 
       var returnVal = [];
-      var districts = [];
 
       $("div.fuel-wrapper").each((i, article) => {
-        district = $("h2.fuel-title-dist", article)
-          .contents()
-          .first()
-          .text()
-          .trim();
-        if (district == req.params.district) {
+        district = getDistrict(article);
+        if (district == distValue) {
           fuelcontent = $("div.fuel-content", article);
           products = fuelcontent.find("div[itemprop=product]");
           productsJson = [];
           products.each((i, product) => {
-            productName = $("h3[itemprop=name]", product)
-              .contents()
-              .first()
-              .text()
-              .trim();
-            productPrice = $("span.price_tag", product)
-              .contents()
-              .first()
-              .text()
-              .trim();
-            productCurrency = $("i[itemprop=priceCurrency]", product).attr(
-              "content"
-            );
-            priceChange = $("span.changed-price", product)
-              .contents()
-              .first()
-              .text()
-              .trim();
-            increment = $("span.changed-price.increment", product).contents()
-              .length;
-            if (increment == 0) priceChangeSign = "-";
-            else priceChangeSign = "+";
+            productName = getProductName(product);
+            productPrice = getProductPrice(product);
+            productCurrency = getProductCurrency(product);
+            priceChange = getPriceChange(product);
+            priceChangeSign = getPriceChangeSign(product);
 
-            if (priceChange == "0") priceChangeSign = null;
             productsJson.push({
               productName,
               productPrice,
@@ -145,8 +136,12 @@ app.get("/get/:state/:district", function (req, res) {
     }
 
     fs.writeFile(
-      req.params.state + "_" + req.params.district + "_output.json",
-      JSON.stringify(districts, null, 4),
+      "jsonOutputs/" +
+        req.params.state +
+        "_" +
+        req.params.district +
+        "_output.json",
+      JSON.stringify(returnVal, null, 4),
       function (err) {
         console.log(
           "File successfully written! - Check your project directory for the output.json file"
@@ -157,7 +152,8 @@ app.get("/get/:state/:district", function (req, res) {
     res.json(returnVal);
   });
 });
-app.get("/get/:state", function (req, res) {
+
+app.get("/price/:state", function (req, res) {
   url = "https://www.newsrain.in/petrol-diesel-prices/" + req.params.state;
 
   request(url, function (error, response, html) {
@@ -187,30 +183,12 @@ app.get("/get/:state", function (req, res) {
         products = fuelcontent.find("div[itemprop=product]");
         productsJson = [];
         products.each((i, product) => {
-          productName = $("h3[itemprop=name]", product)
-            .contents()
-            .first()
-            .text()
-            .trim();
-          productPrice = $("span.price_tag", product)
-            .contents()
-            .first()
-            .text()
-            .trim();
-          productCurrency = $("i[itemprop=priceCurrency]", product).attr(
-            "content"
-          );
-          priceChange = $("span.changed-price", product)
-            .contents()
-            .first()
-            .text()
-            .trim();
-          increment = $("span.changed-price.increment", product).contents()
-            .length;
-          if (increment == 0) priceChangeSign = "-";
-          else priceChangeSign = "+";
+          productName = getProductName(product);
+          productPrice = getProductPrice(product);
+          productCurrency = getProductCurrency(product);
+          priceChange = getPriceChange(product);
+          priceChangeSign = getPriceChangeSign(product);
 
-          if (priceChange == "0") priceChangeSign = null;
           productsJson.push({
             productName,
             productPrice,
@@ -226,21 +204,17 @@ app.get("/get/:state", function (req, res) {
     }
 
     fs.writeFile(
-      req.params.state + "_districts.json",
+      "jsonOutputs/" + req.params.state + "_districts.json",
       JSON.stringify(districts, null, 4),
       function (err) {
-        console.log(
-          "File successfully written! - Check your project directory for the output.json file"
-        );
+        console.log("File successfully written!");
       }
     );
     fs.writeFile(
-      req.params.state + "_output.json",
+      "jsonOutputs/" + req.params.state + "_output.json",
       JSON.stringify(returnVal, null, 4),
       function (err) {
-        console.log(
-          "File successfully written! - Check your project directory for the output.json file"
-        );
+        console.log("File successfully written!");
       }
     );
 
@@ -248,7 +222,47 @@ app.get("/get/:state", function (req, res) {
   });
 });
 
-app.get("/gets/allStates", function (req, res) {
+app.get("/:state/districts", function (req, res) {
+  url = "https://www.newsrain.in/petrol-diesel-prices/" + req.params.state;
+
+  request(url, function (error, response, html) {
+    if (!error) {
+      var $ = cheerio.load(html);
+      var districts = [];
+
+      $("article").each((i, article) => {
+        district = getDistrict(article);
+
+        districts.push(district.split(" ").join("+"));
+      });
+    }
+    res.json(districts);
+  });
+});
+
+app.get("/states", function (req, res) {
+  url = "https://www.newsrain.in/petrol-diesel-prices";
+
+  request(url, function (error, response, html) {
+    if (!error) {
+      var $ = cheerio.load(html);
+      var state;
+      var returnVal = [];
+
+      $("a.waves-effect", $("footer.page-footer")).each((i, link) => {
+        state = $(link)
+          .attr("href")
+          .replace("https://www.newsrain.in/petrol-diesel-prices/", "")
+          .replace("/petrol-diesel-prices/", "");
+        stateName = $(link).contents().last().text();
+        returnVal.push(state);
+      });
+    }
+    res.json(returnVal);
+  });
+});
+
+app.get("/dev/allStates", function (req, res) {
   url = "https://www.newsrain.in/petrol-diesel-prices";
 
   request(url, function (error, response, html) {
@@ -268,12 +282,10 @@ app.get("/gets/allStates", function (req, res) {
     }
 
     fs.writeFile(
-      "statesOnly.json",
+      "jsonOutputs/" + "statesOnly.json",
       JSON.stringify(returnVal, null, 4),
       function (err) {
-        console.log(
-          "File successfully written! - Check your project directory for the statesOnly.json file"
-        );
+        console.log("File successfully written!");
       }
     );
 
