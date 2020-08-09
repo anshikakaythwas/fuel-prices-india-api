@@ -1,9 +1,9 @@
 {
   "name": "node-web-scrape",
   "version": "0.0.1",
-  "description": "Scrape le web.",
+  "description": "Scrape the web for fuel prices",
   "main": "server.js",
-  "author": "Scotch",
+  "author": "Anshika",
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scotch-io/node-web-scraper"
+    "url": "https://github.com/anshikakaythwas/fuel-prices-india-api"
   },
   "dependencies": {
     "express": "latest",
