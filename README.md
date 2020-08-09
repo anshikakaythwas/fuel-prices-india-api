@@ -18,6 +18,30 @@ List all fuel prices in the state for all districts
 * GET ```/price/<state>/<district>```
 Returns the price for specific district in a state
 
+Example:
+
+```json
+{
+    "district": "FATEHGARH SAHIB",
+    "products": [
+                  {
+                  "productName": "Petrol",
+                  "productPrice": "81.72",
+                  "productCurrency": "INR",
+                  "priceChange": "0.15",
+                  "priceChangeSign": "-"
+                  },
+                  {
+                  "productName": "Diesel",
+                  "productPrice": "75.13",
+                  "productCurrency": "INR",
+                  "priceChange": "0.19",
+                  "priceChangeSign": "-"
+                  }
+                ]
+}
+```
 Source: https://www.newsrain.in/petrol-diesel-prices
 
 Feel free to open an issue for any bugs/features. (Bonus points for creating a pull request fixing/adding the same!)
+
