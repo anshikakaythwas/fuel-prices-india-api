@@ -15,7 +15,8 @@
     "url": "https://github.com/anshikakaythwas/fuel-prices-india-api"
   },
   "engines": {
-    "node": "14.7.0"
+    "node": "14.7.0",
+    "npm": "6.14.7"
   },
   "dependencies": {
     "express": "latest",
