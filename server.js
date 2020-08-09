@@ -11,7 +11,15 @@ app.use(express.static("public"));
 
 // define the first route
 app.get("/", function (req, res) {
-  res.send("<h1>Hello World!</h1>");
+  res.send(
+    "<h1 style='text-align: center;'>Fuel Prices API - India</h1><br/>" +
+      "<h2 style='text-align: center;'>Endpoints:</h2><ul style='margin-left: 25%;'>" +
+      "<li>Price for a district in a state : /price/[state]/[district]</li>" +
+      "<li>Price for all districts in a state : /price/[state]</li>" +
+      "<li>List of all states : /states</li>" +
+      "<li>List of all districs in a state : /:state/districts</li>" +
+      "</ul>"
+  );
 });
 
 function getDistrict(article) {
