@@ -311,6 +311,11 @@ app.get("/dev/allStates", function (req, res) {
     res.json(returnVal);
   });
 });
-
+app.use((req,res,next)=>{
+    res.setHeader('Acces-Control-Allow-Origin','*');
+    res.setHeader('Acces-Control-Allow-Methods','GET,POST,PUT,PATCH,DELETE');
+    res.setHeader('Acces-Contorl-Allow-Methods','Content-Type','Authorization');
+    next(); 
+})
 // start the server listening for requests
 app.listen(process.env.PORT || 3000, () => console.log("Server is running..."));
